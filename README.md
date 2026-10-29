@@ -21,7 +21,7 @@ Módulo de software diseñado para transformar integralmente las operaciones de 
 
 ### Enlaces Oficiales del Proyecto
 * **Repositorio en GitHub:** https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina
-* **Tablero Ágil de Gestión:** Enlace pendiente de confirmar al completar la consigna 3.
+* **Tablero Ágil de Gestión:** https://github.com/users/Lucianof85/projects/1
 
 ---
 
@@ -30,7 +30,7 @@ Módulo de software diseñado para transformar integralmente las operaciones de 
 * **Rama secundaria `docs/portada-y-versionado`:** Corrección de los enlaces de la portada y documentación del flujo de colaboración.
 * **Commits descriptivos:** Cada cambio debe indicar qué se modificó y con qué propósito.
 * **Pull Requests (PR):** Los cambios de la rama secundaria se proponen hacia `main`. Antes de integrarlos, un compañero debe revisar el contenido y dejar su revisión registrada en GitHub.
-* **Estado de la revisión de pares:** Pendiente. La apertura del PR no implica su aprobación ni su integración.
+* **Revisión de pares e integración:** [PR #1](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/pull/1) integrado a `main` el 29 de octubre de 2026, con revisión de `rojovelero` registrada mediante comentario de revisión.
 
 ---
 
@@ -42,3 +42,7 @@ En estricto cumplimiento con la pauta pedagógica de la cátedra:
 
 ### Asistencia de IA en esta actualización
 Se utilizó ChatGPT para revisar la portada, detectar enlaces que no correspondían a este repositorio y proponer la documentación del flujo de ramas, commits y Pull Requests. La revisión del contenido por un compañero y su aprobación deben quedar registradas antes de integrar esta actualización en `main`.
+
+
+### Seguimiento del backlog ágil
+El tablero de GitHub Projects está vinculado a este repositorio y organiza el trabajo en **Por Hacer**, **En Progreso** y **Listo**. Incluye el PR #1 integrado como evidencia de una actividad terminada. Las tres historias de usuario se incorporarán como issues una vez confirmados sus enunciados y su avance real.
