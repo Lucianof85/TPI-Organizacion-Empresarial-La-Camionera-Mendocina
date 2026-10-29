@@ -20,15 +20,17 @@ Módulo de software diseñado para transformar integralmente las operaciones de 
 ---
 
 ### Enlaces Oficiales del Proyecto
-* **Repositorio en GitHub:** https://github.com/bernardolfernandez/TPI-Organizacion-Empresarial-La-Camionera-Mendocina
-* **Tablero Ágil de Gestión:** https://github.com/users/bernardolfernandez/projects/1
+* **Repositorio en GitHub:** https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina
+* **Tablero Ágil de Gestión:** Enlace pendiente de confirmar al completar la consigna 3.
 
 ---
 
 ### Dinámica de Versionado y Trabajo Colaborativo (Git Flow)
-* **Rama main:** Versión oficial consolidada y aprobada para el Coloquio Integrador.
-* **Rama secundaria feature/tpi4-bpmn-kpis-agile:** Modelado BPMN, historias de usuario y matriz de control (KPIs).
-* **Pull Requests (PR):** Integración formal con revisión y cierre de tareas.
+* **Rama `main`:** Versión publicada de la documentación del proyecto.
+* **Rama secundaria `docs/portada-y-versionado`:** Corrección de los enlaces de la portada y documentación del flujo de colaboración.
+* **Commits descriptivos:** Cada cambio debe indicar qué se modificó y con qué propósito.
+* **Pull Requests (PR):** Los cambios de la rama secundaria se proponen hacia `main`. Antes de integrarlos, un compañero debe revisar el contenido y dejar su revisión registrada en GitHub.
+* **Estado de la revisión de pares:** Pendiente. La apertura del PR no implica su aprobación ni su integración.
 
 ---
 
@@ -36,3 +38,7 @@ Módulo de software diseñado para transformar integralmente las operaciones de 
 En estricto cumplimiento con la pauta pedagógica de la cátedra:
 * Se recurrió al uso de asistentes de IA Generativa para agilizar la sintaxis de diagramación gráfica (código Mermaid para BPMN) y parametrizar la estructura de historias de usuario y métricas de desempeño.
 * **Control humano estricto:** El estudiante corrigió las propuestas del modelo descartando entidades genéricas de e-commerce, incorporó la entidad de telemetría POSICION_GPS, desglosó el peso real y volumétrico, y aseguró la coherencia con las restricciones operativas de La Camionera Mendocina S.R.L.
+
+
+### Asistencia de IA en esta actualización
+Se utilizó ChatGPT para revisar la portada, detectar enlaces que no correspondían a este repositorio y proponer la documentación del flujo de ramas, commits y Pull Requests. La revisión del contenido por un compañero y su aprobación deben quedar registradas antes de integrar esta actualización en `main`.
