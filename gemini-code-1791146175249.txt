@@ -1,0 +1,27 @@
+gantt
+    title Cronograma de Trabajo - La Camionera Mendocina S.R.L.
+    dateFormat  YYYY-MM-DD
+    axisFormat  Sem %W
+    excludes    weekends
+
+    section E1: Análisis
+    1.1 Relevamiento de procesos operativos       :e1_1, 2026-10-05, 2w
+    1.2 Especificación técnica y requerimientos   :e1_2, after e1_1, 2w
+
+    section E2: Diseño
+    2.1 Modelo de datos y arquitectura           :e2_1, after e1_2, 2w
+    2.2 Prototipado UI/UX web y móvil             :e2_2, after e1_2, 2w
+
+    section E3: Codificación
+    3.1 Backend APIs y lógica de negocio          :e3_1, after e2_1, 6w
+    3.2 Módulo de telemetría y mapas GPS          :e3_2, after e3_1, 4w
+    3.3 App móvil para escaneo de etiquetas       :e3_3, after e3_1, 4w
+    3.4 Portal web de seguimiento para clientes   :e3_4, after e3_1, 4w
+
+    section E4: Pruebas de Calidad
+    4.1 Testing funcional y control de estrés     :e4_1, after e3_2, 3w
+    4.2 Prueba piloto en entorno real de ruta     :e4_2, after e4_1, 2w
+
+    section E5: Implementación
+    5.1 Capacitación al personal operativo        :e5_1, after e4_2, 2w
+    5.2 Despliegue definitivo (Go-Live)           :milestone, e5_2, after e5_1, 0d
