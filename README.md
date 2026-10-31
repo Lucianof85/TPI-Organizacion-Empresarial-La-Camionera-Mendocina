@@ -45,4 +45,15 @@ Se utilizó ChatGPT para revisar la portada, detectar enlaces que no correspond�
 
 
 ### Seguimiento del backlog ágil
-El tablero de GitHub Projects está vinculado a este repositorio y organiza el trabajo en **Por Hacer**, **En Progreso** y **Listo**. Incluye el PR #1 integrado como evidencia de una actividad terminada. Las tres historias de usuario se incorporarán como issues una vez confirmados sus enunciados y su avance real.
+El tablero de GitHub Projects está vinculado a este repositorio y organiza el trabajo en **Por Hacer**, **En Progreso** y **Listo**. Incluye el PR #1 integrado como evidencia de una actividad terminada. Las tres historias de usuario están vinculadas al tablero como issues del repositorio:
+
+| Historia | Funcionalidad | Estado |
+| --- | --- | --- |
+| [US-01](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/2) | Transmisión periódica de coordenadas GPS | Listo |
+| [US-02](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/3) | Escaneo QR y asociación a hoja de ruta | Listo |
+| [US-03](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/4) | Firma digital y DNI para comprobante de entrega | Listo |
+
+El 31 de octubre de 2026 el responsable del proyecto confirmó que las tres funcionalidades están implementadas y verificadas. El estado del tablero refleja esa confirmación. El historial de cada issue conserva su incorporación y cierre; no se reconstruyen etapas anteriores.
+
+
+Para esta actualización se utilizó ChatGPT como apoyo para completar el formato «Como [usuario], quiero [funcionalidad], para [beneficio]» a partir de los títulos cargados por el estudiante. La confirmación de implementación y verificación fue proporcionada por el responsable del proyecto.
