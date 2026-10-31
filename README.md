@@ -34,10 +34,10 @@ Módulo de software diseñado para transformar integralmente las operaciones de 
 
 ---
 
-### Declaración Crítica sobre el Uso de Inteligencia Artificial
-En estricto cumplimiento con la pauta pedagógica de la cátedra:
-* Se recurrió al uso de asistentes de IA Generativa para agilizar la sintaxis de diagramación gráfica (código Mermaid para BPMN) y parametrizar la estructura de historias de usuario y métricas de desempeño.
-* **Control humano estricto:** El estudiante corrigió las propuestas del modelo descartando entidades genéricas de e-commerce, incorporó la entidad de telemetría POSICION_GPS, desglosó el peso real y volumétrico, y aseguró la coherencia con las restricciones operativas de La Camionera Mendocina S.R.L.
+### Declaración de Uso Crítico de Inteligencia Artificial
+En estricto cumplimiento de las pautas de transparencia y autoría de la cátedra de Organización Empresarial (UTN):
+* **Propósito:** Asistencia en la aceleración de sintaxis para diagramación BPMN (Mermaid) y formateo de tablas ágiles.
+* **Control Crítico:** El estudiante corrigió las propuestas iniciales descartando entidades genéricas de e-commerce, incorporó la entidad `POSICION_GPS` con geolocalización continua, desglosó el pesaje en bruto/volumétrico y estructuró las compuertas lógicas XOR de excepción operativa.
 
 
 ### Asistencia de IA en esta actualización
