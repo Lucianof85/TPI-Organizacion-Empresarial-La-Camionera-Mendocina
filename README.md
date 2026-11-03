@@ -11,7 +11,7 @@
 ---
 
 ### Descripción del Sistema
-Módulo de software diseñado para transformar integralmente las operaciones de transporte de cargas y encomiendas de **La Camionera Mendocina S.R.L.**. El sistema incorpora:
+Módulo de software diseñado para transformar integralmente las operaciones de transporte de cargas y encomiendas de **La Camionera Mendocina S.R.L.**. El proyecto contempla las siguientes funcionalidades, cuya implementación está pendiente:
 1. **Admisión y Cubicaje Digital:** Registro de peso bruto, peso volumétrico y emisión de rótulos con código QR (entidad ENVIO_ENCOMIENDA).
 2. **Consolidación de Viajes:** Asignación de bultos a unidades vehiculares y trayectos troncales (entidad HOJA_RUTA_VIAJE).
 3. **Telemetría y Rutas Satelitales en Vivo:** Monitoreo en tiempo real de coordenadas, velocidad y alertas reportadas por módems GPS a bordo (entidad POSICION_GPS).
@@ -49,11 +49,25 @@ El tablero de GitHub Projects está vinculado a este repositorio y organiza el t
 
 | Historia | Funcionalidad | Estado |
 | --- | --- | --- |
-| [US-01](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/2) | Transmisión periódica de coordenadas GPS | Listo |
-| [US-02](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/3) | Escaneo QR y asociación a hoja de ruta | Listo |
-| [US-03](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/4) | Firma digital y DNI para comprobante de entrega | Listo |
+| [US-01](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/2) | Transmisión periódica de coordenadas GPS | Por Hacer |
+| [US-02](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/3) | Escaneo QR y asociación a hoja de ruta | Por Hacer |
+| [US-03](https://github.com/Lucianof85/TPI-Organizacion-Empresarial-La-Camionera-Mendocina/issues/4) | Firma digital y DNI para comprobante de entrega | Por Hacer |
 
-El 31 de octubre de 2026 el responsable del proyecto confirmó que las tres funcionalidades están implementadas y verificadas. El estado del tablero refleja esa confirmación. El historial de cada issue conserva su incorporación y cierre; no se reconstruyen etapas anteriores.
+Las tres historias están definidas y pendientes de implementación y pruebas. Se corrigió su registro anterior en «Listo» y se reabrieron las issues para reflejar el avance real. Pasarán a «En Progreso» cuando comience su implementación y a «Listo» cuando se haya implementado y verificado cada funcionalidad según sus criterios de aceptación. El historial conserva los cambios realizados; no se simulan etapas de desarrollo.
 
 
-Para esta actualización se utilizó ChatGPT como apoyo para completar el formato «Como [usuario], quiero [funcionalidad], para [beneficio]» a partir de los títulos cargados por el estudiante. La confirmación de implementación y verificación fue proporcionada por el responsable del proyecto.
+Para esta actualización se utilizó ChatGPT como apoyo para completar el formato «Como [usuario], quiero [funcionalidad], para [beneficio]» a partir de los títulos cargados por el estudiante.
+
+
+### Organización de la documentación
+Este repositorio contiene únicamente la documentación del proyecto La Camionera Mendocina:
+
+- [Entregas](TPI/entregas/): las entregas 1, 2 y 3, en PDF y en su versión editable de Word.
+- [Diagramas](TPI/diagramas/): sistema abierto, organigrama, seguimiento GPS y cronograma.
+- [Cronograma editable](TPI/diagramas/cronograma.mmd): fuente Mermaid del cronograma de planificación.
+
+Los diagramas y el cronograma describen el diseño y la planificación del proyecto; no acreditan funcionalidades implementadas.
+
+Los apuntes de las unidades, las consignas de la cátedra, la plantilla de presentación y los archivos de estudio o borradores sueltos no forman parte de esta documentación.
+
+Para esta limpieza se utilizó ChatGPT como apoyo para identificar el material ajeno a la documentación del proyecto, organizar los archivos y corregir la coherencia entre el README y el tablero de historias de usuario.
